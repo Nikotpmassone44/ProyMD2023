@@ -1,0 +1,111 @@
+/* Reset básico */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración de la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: #d1d1d1;
+    color: #ea4040;
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav .logo {
+    font-family: 'Anton';
+    font-size: 3rem;
+    text-decoration: none;
+    color: #000;
+}
+
+nav .nav-links {
+    list-style: none;
+}
+
+nav .nav-links li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+nav .nav-links a:hover {
+    color: #ea4040;
+    font-weight: bold; /* hacer q la letra este en negrita*/
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-container input, .form-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.form-container button {
+    background-color: #ea4040;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-container button:hover {
+    background-color: #8d1010;
+}
+.info {
+    color: #555555;
+    font-size: 1rem;
+    padding-bottom: 4%;
+}
+
+
+footer {
+    margin-top: 2%;
+    background-color: #ddd;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    color: #868686;
+}
